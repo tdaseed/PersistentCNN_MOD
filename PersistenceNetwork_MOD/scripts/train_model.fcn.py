@@ -1,9 +1,9 @@
 import lasagne
 import theano.tensor as T
 
-import sys
-sys.path.append('~/repos/PersistentCNN_MOD/PersistenceNetwork_MOD/')
-# sys.path.append('/Users/tieqiangli/pcnn/PersistenceNetwork/')
+# import sys
+# sys.path.append('~/repos/PersistentCNN_MOD/PersistenceNetwork_MOD/')
+# # sys.path.append('/Users/tieqiangli/pcnn/PersistenceNetwork/')
 
 from pnet import utils
 
