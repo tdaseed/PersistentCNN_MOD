@@ -257,7 +257,6 @@ def train(
         for inputs, targets in iterate_minibatches(X_tr, y_tr,
                                                    batch_size, shuffle=True):
             train_loss_one = train_func(inputs, targets)
-#             print train_loss_one
 	    train_loss += train_loss_one
             train_batches += 1
         mean_tr_loss = train_loss/train_batches
